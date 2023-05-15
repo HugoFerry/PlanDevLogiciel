@@ -1,0 +1,60 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+}
+
+.etage-text {
+  cursor: pointer;
+  font-size: 24px;
+}
+
+/* carte.component.css */
+.carte-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 300px;
+  height: 80vh;
+  width: 100vh;
+  border: 1px solid #ccc;
+}
+
+.carte-carre {
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 80px;
+  height: 80px;
+  background-color: blue;
+  border: 1px solid #fff;
+  cursor: pointer;
+}
+
+.carre-1 {
+  top: 200px;
+  left: 100px;
+}
+
+.carre-2 {
+  top: 300px;
+  left: 200px;
+}
+
+.carre-3 {
+  top: 300px;
+  left: 300px;
+}
+
+/* carte.component.css */
+.chiffre {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 24px;
+}
+
